@@ -1,0 +1,8 @@
+<div>
+  <button (click)="changeConfig($event)" [innerHTML]="'RANDOM MESSAGE'"></button>
+  <code>
+    {{  this.config | json }}
+  </code>
+  <br/>
+  <p>Counter: {{ this.counter }} </p>
+</div>
